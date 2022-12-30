@@ -13,3 +13,5 @@ C:\Users\ONUR\source\repos\NlayerApp\NLayerRepository\obj\Debug\net6.0\NLayerRep
 C:\Users\ONUR\source\repos\NlayerApp\NLayerRepository\obj\Debug\net6.0\refint\NLayerRepository.dll
 C:\Users\ONUR\source\repos\NlayerApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.pdb
 C:\Users\ONUR\source\repos\NlayerApp\NLayerRepository\obj\Debug\net6.0\ref\NLayerRepository.dll
+C:\Users\ONUR\source\repos\NlayerApp\NLayerRepository\bin\Debug\net6.0\NLayerRepository.runtimeconfig.json
+C:\Users\ONUR\source\repos\NlayerApp\NLayerRepository\obj\Debug\net6.0\NLayerRepository.genruntimeconfig.cache

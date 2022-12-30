@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace NLayerCore.UnitOfWorks
 {
-    internal interface IUnitOfWork
+    public interface IUnitOfWork
     {
+        void CommitAsync();
+        void Commit();
     }
 }
