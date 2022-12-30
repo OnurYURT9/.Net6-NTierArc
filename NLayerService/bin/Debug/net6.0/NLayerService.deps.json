@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NLayerService/1.0.0": {
+        "dependencies": {
+          "NLayerRepository": "1.0.0"
+        },
+        "runtime": {
+          "NLayerService.dll": {}
+        }
+      },
+      "NLayerCore/1.0.0": {
+        "runtime": {
+          "NLayerCore.dll": {}
+        }
+      },
+      "NLayerRepository/1.0.0": {
+        "dependencies": {
+          "NLayerCore": "1.0.0"
+        },
+        "runtime": {
+          "NLayerRepository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NLayerService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NLayerCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NLayerRepository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
