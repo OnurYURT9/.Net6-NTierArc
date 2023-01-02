@@ -3,7 +3,7 @@ using System.Linq.Expressions;
 
 namespace NLayerCore.Repositories
 {
-    public interface GenericRepository<T> where T:class
+    public interface IGenericRepository<T> where T:class
     {
         IQueryable<T> GetAll(Expression<Func<T, bool>> expression);
         Task<T> GetByIdAsync(int id);
