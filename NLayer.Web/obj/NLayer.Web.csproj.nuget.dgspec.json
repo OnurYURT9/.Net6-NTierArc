@@ -199,10 +199,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0, )"
-            },
-            "NPOI": {
-              "target": "Package",
-              "version": "[2.6.0, )"
             }
           },
           "imports": [

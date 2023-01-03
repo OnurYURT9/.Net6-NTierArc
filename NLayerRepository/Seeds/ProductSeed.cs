@@ -1,6 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
 using NLayerCore;
+
+
+
 
 namespace NLayer.Repository.Seeds
 {
@@ -63,6 +66,7 @@ namespace NLayer.Repository.Seeds
 
 
                });
+
         }
     }
 }

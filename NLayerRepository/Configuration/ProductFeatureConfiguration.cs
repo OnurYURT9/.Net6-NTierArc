@@ -1,13 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using NLayerCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace NLayerRepository.Configuration
+namespace NLayer.Repository.Configurations
 {
     internal class ProductFeatureConfiguration : IEntityTypeConfiguration<ProductFeature>
     {
@@ -15,7 +11,7 @@ namespace NLayerRepository.Configuration
         {
             builder.HasKey(x => x.ID);
             builder.Property(x => x.ID).UseIdentityColumn();
-            builder.HasOne(x=>x.Product).WithOne(x=>x.ProductFeature).HasForeignKey<ProductFeature>(x=>x.ProductId);
+            builder.HasOne(x => x.Product).WithOne(x => x.ProductFeature).HasForeignKey<ProductFeature>(x => x.ProductId);
         }
     }
 }

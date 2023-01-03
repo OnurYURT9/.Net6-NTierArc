@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using NLayerCore;
 
-namespace NLayerRepository.Seeds
+namespace NLayer.Repository.Seeds
 {
     internal class CategorySeed : IEntityTypeConfiguration<Category>
     {

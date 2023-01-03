@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NLayerCore;
-using NLayerRepository.Configuration;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
