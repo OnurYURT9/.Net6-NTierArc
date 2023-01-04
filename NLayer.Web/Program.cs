@@ -1,7 +1,26 @@
+using Microsoft.EntityFrameworkCore;
+using NLayerCore.Repositories;
+using NLayerCore.UnitOfWorks;
+using NLayerRepository.Repositories;
+using NLayerRepository.UnitOfWork;
+using NLayerRepository;
+using System.Reflection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+//builder.Services.AddScoped(typeof(IService<>),typeof(Service<>));
+
+builder.Services.AddDbContext<AppDbContext>(x =>
+{
+    x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"), option =>
+    {
+        option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
+    });
+});
 
 var app = builder.Build();
 
