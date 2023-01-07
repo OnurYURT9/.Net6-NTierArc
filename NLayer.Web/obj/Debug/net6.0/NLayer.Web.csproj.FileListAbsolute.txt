@@ -8,8 +8,6 @@ C:\Users\ONUR\source\repos\NlayerApp\NLayer.Web\bin\Debug\net6.0\NLayer.Web.dll
 C:\Users\ONUR\source\repos\NlayerApp\NLayer.Web\bin\Debug\net6.0\NLayer.Web.pdb
 C:\Users\ONUR\source\repos\NlayerApp\NLayer.Web\bin\Debug\net6.0\NLayerCore.dll
 C:\Users\ONUR\source\repos\NlayerApp\NLayer.Web\bin\Debug\net6.0\NLayerRepository.dll
-C:\Users\ONUR\source\repos\NlayerApp\NLayer.Web\bin\Debug\net6.0\NLayerService.dll
-C:\Users\ONUR\source\repos\NlayerApp\NLayer.Web\bin\Debug\net6.0\NLayerService.pdb
 C:\Users\ONUR\source\repos\NlayerApp\NLayer.Web\bin\Debug\net6.0\NLayerCore.pdb
 C:\Users\ONUR\source\repos\NlayerApp\NLayer.Web\bin\Debug\net6.0\NLayerRepository.pdb
 C:\Users\ONUR\source\repos\NlayerApp\NLayer.Web\obj\Debug\net6.0\NLayer.Web.csproj.AssemblyReference.cache

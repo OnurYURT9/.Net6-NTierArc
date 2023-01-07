@@ -10,4 +10,8 @@
     <ProjectReference Include="..\NLayerRepository\NLayerRepository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>

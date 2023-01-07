@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "NLayer.Web/1.0.0": {
         "dependencies": {
-          "NLayerService": "1.0.0"
+          "NLayerRepository": "1.0.0"
         },
         "runtime": {
           "NLayer.Web.dll": {}
@@ -415,14 +415,6 @@
         "runtime": {
           "NLayerRepository.dll": {}
         }
-      },
-      "NLayerService/1.0.0": {
-        "dependencies": {
-          "NLayerRepository": "1.0.0"
-        },
-        "runtime": {
-          "NLayerService.dll": {}
-        }
       }
     }
   },
@@ -718,11 +710,6 @@
       "sha512": ""
     },
     "NLayerRepository/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "NLayerService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NLayerCore
+namespace NLayerCore.Models
 {
     public class ProductFeature
     {
@@ -14,6 +14,6 @@ namespace NLayerCore
         public int Weight { get; set; }
         public int ProductId { get; set; }
         public Product Product { get; set; }
-        
+
     }
 }

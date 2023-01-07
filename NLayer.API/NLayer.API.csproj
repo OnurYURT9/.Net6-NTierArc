@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.ExpressionMapping" Version="6.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -20,7 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NLayerService\NLayerService.csproj" />
+    <ProjectReference Include="..\NLayer.Service\NLayerService.csproj" />
+    <ProjectReference Include="..\NLayerCore\NLayerCore.csproj" />
+    <ProjectReference Include="..\NLayerRepository\NLayerRepository.csproj" />
   </ItemGroup>
 
 </Project>

@@ -19,5 +19,10 @@ namespace NLayerRepository.UnitOfWork
         {
            await _context.SaveChangesAsync();
         }
+
+        Task IUnitOfWork.CommitAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

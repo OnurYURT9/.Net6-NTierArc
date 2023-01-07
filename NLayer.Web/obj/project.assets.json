@@ -760,19 +760,6 @@
         "runtime": {
           "bin/placeholder/NLayerRepository.dll": {}
         }
-      },
-      "NLayerService/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "NLayerRepository": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/NLayerService.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NLayerService.dll": {}
-        }
       }
     }
   },
@@ -1947,16 +1934,11 @@
       "type": "project",
       "path": "../NLayerRepository/NLayerRepository.csproj",
       "msbuildProject": "../NLayerRepository/NLayerRepository.csproj"
-    },
-    "NLayerService/1.0.0": {
-      "type": "project",
-      "path": "../NLayerService/NLayerService.csproj",
-      "msbuildProject": "../NLayerService/NLayerService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "NLayerService >= 1.0.0"
+      "NLayerRepository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1992,8 +1974,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ONUR\\source\\repos\\NlayerApp\\NLayerService\\NLayerService.csproj": {
-              "projectPath": "C:\\Users\\ONUR\\source\\repos\\NlayerApp\\NLayerService\\NLayerService.csproj"
+            "C:\\Users\\ONUR\\source\\repos\\NlayerApp\\NLayerRepository\\NLayerRepository.csproj": {
+              "projectPath": "C:\\Users\\ONUR\\source\\repos\\NlayerApp\\NLayerRepository\\NLayerRepository.csproj"
             }
           }
         }
